@@ -3,6 +3,7 @@ import 'package:first_app/views/DrawerDemo.dart';
 import 'package:first_app/views/BottomNavigationBarDemo.dart';
 import 'package:first_app/views/ListViewDemo.dart';
 import 'package:first_app/views/BasicalWidgetDemo.dart';
+import 'package:first_app/views/LayoutDemo.dart';
 
 
 void main() => runApp(App());
@@ -83,7 +84,8 @@ class Home extends StatelessWidget {
                         ListViewDemo(),
                         // Icon(Icons.settings, size: 128.0, color: Colors.black12),
                         BasicalWidgetDemo(),
-                        Icon(Icons.account_box, size: 128.0, color: Colors.black12),
+                        // Icon(Icons.account_box, size: 128.0, color: Colors.black12),
+                        LayoutDemo()
                     ],
                 ),
                 // 侧边栏
