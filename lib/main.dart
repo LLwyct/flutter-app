@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:first_app/views/DrawerDemo.dart';
 import 'package:first_app/views/BottomNavigationBarDemo.dart';
 import 'package:first_app/views/ListViewDemo.dart';
+import 'package:first_app/views/BasicalWidgetDemo.dart';
 
 
 void main() => runApp(App());
@@ -80,7 +81,8 @@ class Home extends StatelessWidget {
                     children: < Widget > [
                         // Icon(Icons.school, size: 128.0, color: Colors.black12),
                         ListViewDemo(),
-                        Icon(Icons.settings, size: 128.0, color: Colors.black12),
+                        // Icon(Icons.settings, size: 128.0, color: Colors.black12),
+                        BasicalWidgetDemo(),
                         Icon(Icons.account_box, size: 128.0, color: Colors.black12),
                     ],
                 ),
